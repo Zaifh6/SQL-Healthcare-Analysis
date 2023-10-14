@@ -24,8 +24,8 @@
 <!-- PROJECT LOGO -->
 ### Built With
 
-* [SQL]: https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=sql&logoColor=white
-
+[SQL-badge]: https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=sql&logoColor=white
+[SQL-url]: https://www.w3schools.com/sql/
 
 
 # Healthcare Analysis Project
