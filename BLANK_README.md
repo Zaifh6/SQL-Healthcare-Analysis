@@ -18,12 +18,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -37,7 +31,7 @@
 <h3 align="center">project_title</h3>
 
   <p align="center">
-    project_description
+    Healthcare Analysis with SQL is a project where I used SQL to examine a healthcare dataset. I dug into the data to find patterns and insights related to heart disease, smoking history, age, gender, and more. It's a practical analysis that might be helpful for anyone interested in healthcare data or looking to understand this dataset better.
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
@@ -93,125 +87,59 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+* [SQL]: https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=sql&logoColor=white
 
 
 
-<!-- GETTING STARTED -->
-## Getting Started
+# Healthcare Analysis Project
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This project involves an analysis of healthcare data using SQL to gain valuable insights into the healthcare industry. The dataset contains information about individuals, their health conditions, and other relevant factors.
 
-### Prerequisites
+## Insights
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+- [x] **Insight 1:**
+  - [x] There are 61 females who are 45 years old and have heart disease.
+- [x] **Insight 2:**
+  - [x] It also appears that there are more females with heart disease compared to males with heart disease.
+- [x] **Insight 3:**
+  - [x] People whose age is greater than 50 have a heart disease count of 2,127.
+- [x] **Insight 4:**
+  - [x] People whose age is less than 50 have a heart disease count of 2,900.
+- [x] **Insight 5:**
+  - [x] For people with older ages, such as those greater than 50, the heart disease count is also higher.
+- [x] **Insight 6:**
+  - [x] There are 244 who were married and had a heart disease.
+- [x] **Insight 7:**
+  - [x] Minimum Age = 1 & Maximum Age = 82
+- [x] **Insight 8:**
+  - [x] Female genders in data set: 2994 & Male genders in data set: 2115
+- [x] **Insight 9:**
+  - [x] Average age in the data set: 43
+- [x] **Insight 10:**
+  - [x] There are 885 people in this dataset who have a history of smoking.
+- [x] **Insight 11:**
+  - [x] Out of these 885 people, 477 are females & 407 are males.
+- [x] **Insight 12:**
+  - [x] There are 1892 people in this dataset who have never smoked.
+- [x] **Insight 13:**
+  - [x] Out of these 1892 people, 1229 are females and 663 are males.
 
-### Installation
+## Prerequisites
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+Before you begin, ensure you have met the following requirements:
+- SQL database access
+- Dataset or data source
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+1. Clone the project repository.
+2. Set up your SQL database and import the dataset.
+3. Run SQL queries to obtain insights.
+4. Analyze the results to draw meaningful conclusions.
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
