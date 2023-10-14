@@ -21,13 +21,6 @@
 
 
 
-<!-- PROJECT LOGO -->
-### Built With
-
-[SQL-badge]: https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=sql&logoColor=white
-[SQL-url]: https://www.w3schools.com/sql/
-
-
 # Healthcare Analysis Project
 
 This project involves an analysis of healthcare data using SQL to gain valuable insights into the healthcare industry. The dataset contains information about individuals, their health conditions, and other relevant factors.
